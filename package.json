@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "wdev": "wrangler dev",
-    "vdev": "vite dev"
+    "vdev": "vite dev",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,9 @@
   "type": "module",
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.5.0",
+    "@cloudflare/vitest-pool-workers": "^0.8.36",
     "vite": "^6.3.5",
+    "vitest": "~3.1.0",
     "wrangler": "^4.19.1"
   }
 }
