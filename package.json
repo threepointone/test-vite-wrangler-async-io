@@ -1,0 +1,19 @@
+{
+  "name": "test-vite-wrangler-async-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wdev": "wrangler dev",
+    "vdev": "vite dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@cloudflare/vite-plugin": "^1.5.0",
+    "vite": "^6.3.5",
+    "wrangler": "^4.19.1"
+  }
+}
